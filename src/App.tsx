@@ -1,12 +1,9 @@
-import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <h1>Sergii Golovko</h1>
-      <div className='card'>
-        <p>personal page</p>
-      </div>
+      <Header />
     </>
   );
 }
