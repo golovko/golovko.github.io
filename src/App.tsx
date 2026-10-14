@@ -1,17 +1,7 @@
-import { Footer } from './components/Footer';
-import Header from './components/Header';
-import Main from './components/main/Main';
-import { NavBar } from './components/NavBar';
+import Portfolio from './Portfolio';
 
 function App() {
-  return (
-    <>
-      <NavBar />
-      <Header />
-      <Main />
-      <Footer />
-    </>
-  );
+  return <Portfolio />;
 }
 
 export default App;
